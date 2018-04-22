@@ -71,7 +71,7 @@ class GameScene: SKScene {
         ball.fillColor = .lightGray
         ball.strokeColor = .black
         ball.zPosition = 1
-        ball.position = CGPoint(x: frame.midX, y: frame.midY)
+        ball.position = CGPoint(x: frame.midX, y: frame.minY)
         
         /** Add physics to ball */
         ball.physicsBody = SKPhysicsBody(circleOfRadius: frame.height / 15)
